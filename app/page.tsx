@@ -1,22 +1,24 @@
-'use client';
+"use client";
 
-import { ThirdSection } from './components/sections/ThirdSection';
-import Hero from './src/sections/Hero';
-import Header from './src/ui/Header';
-import SeqoriaCanSection from './src/sections/SeqoriaCanSection';
-import Footer from './src/ui/Footer';
-import { CardStackingSection } from './src/sections/CardSec';
+import { CardStackingSection } from "./components/sections/CardStackingSection";
+import Hero from "./src/components/Hero";
+import { ThirdSection } from "./src/components/sections/ThirdSection";
+
+import SeqoriaCanSection from "./src/components/SeqoriaCanSection";
+import Footer from "./src/components/ui/Footer";
+
+import Header from "./src/components/ui/Header";
 
 export default function Page() {
-    return (
-        <main>
-            <Header />
-            <Hero />
-            <SeqoriaCanSection />
-            <CardStackingSection />
-            <ThirdSection />
-            <Footer />
-            {/* <Slider /> */}
-        </main>
-    );
+  return (
+    <main>
+      <Header />
+      <Hero />
+      <SeqoriaCanSection />
+      <CardStackingSection />
+      <ThirdSection />
+      <Footer />
+      {/* <Slider /> */}
+    </main>
+  );
 }
