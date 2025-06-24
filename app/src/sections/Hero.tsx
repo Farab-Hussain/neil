@@ -84,14 +84,30 @@ const Hero = () => {
                             <span
                                 key={i}
                                 style={{
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     fontWeight: 300,
+=======
+                                    fontWeight: 400,
+>>>>>>> Stashed changes
+=======
+                                    fontWeight: 400,
+>>>>>>> Stashed changes
                                     fontStyle: 'normal',
                                     fontSize: '12rem',
                                     textTransform: 'uppercase',
                                     display: 'inline-block',
                                     color: '#0F52BA',
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     fontFamily:
                                         'Quicksand, Arial, Helvetica, sans-serif',
+=======
+                                    fontFamily: 'Quicksand, sans-serif',
+>>>>>>> Stashed changes
+=======
+                                    fontFamily: 'Quicksand, sans-serif',
+>>>>>>> Stashed changes
                                 }}
                             >
                                 {char === ' ' ? '\u00A0' : char}
@@ -104,14 +120,30 @@ const Hero = () => {
                             <span
                                 key={i + left.length}
                                 style={{
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     fontWeight: 300,
+=======
+                                    fontWeight: 400,
+>>>>>>> Stashed changes
+=======
+                                    fontWeight: 400,
+>>>>>>> Stashed changes
                                     fontStyle: 'normal',
                                     fontSize: '12rem',
                                     textTransform: 'uppercase',
                                     display: 'inline-block',
                                     color: '#009B77',
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     fontFamily:
                                         'Quicksand, Arial, Helvetica, sans-serif',
+=======
+                                    fontFamily: 'Quicksand, sans-serif',
+>>>>>>> Stashed changes
+=======
+                                    fontFamily: 'Quicksand, sans-serif',
+>>>>>>> Stashed changes
                                 }}
                             >
                                 {char === ' ' ? '\u00A0' : char}
@@ -124,9 +156,19 @@ const Hero = () => {
                     <div
                         id="hero-subheading"
                         style={{
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             fontFamily:
                                 'Quicksand, Arial, Helvetica, sans-serif',
                             fontWeight: 300,
+=======
+                            fontFamily: 'Quicksand, sans-serif',
+                            fontWeight: 400,
+>>>>>>> Stashed changes
+=======
+                            fontFamily: 'Quicksand, sans-serif',
+                            fontWeight: 400,
+>>>>>>> Stashed changes
                             fontSize: '2.5rem',
                             color: '#1f1d2e',
                             textAlign: 'center',

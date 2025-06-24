@@ -83,8 +83,18 @@ const AnimatedGrowImage = () => {
             gsap.fromTo(
                 imageRef.current,
                 {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     width: 145,
                     height: 145,
+=======
+                    width: 120,
+                    height: 120,
+>>>>>>> Stashed changes
+=======
+                    width: 120,
+                    height: 120,
+>>>>>>> Stashed changes
                     borderRadius: '50%',
                     x: 0,
                     opacity: 1,
@@ -205,7 +215,15 @@ const AnimatedGrowImage = () => {
                                         style={{
                                             fontSize: '2.5rem',
                                             marginBottom: '1.2rem',
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             fontWeight: 300,
+=======
+                                            fontWeight: 700,
+>>>>>>> Stashed changes
+=======
+                                            fontWeight: 700,
+>>>>>>> Stashed changes
                                             textAlign: 'center',
                                             color: '#0F52BA',
                                             zIndex: 2,
@@ -215,7 +233,13 @@ const AnimatedGrowImage = () => {
                                             overflowWrap: 'break-word',
                                             wordBreak: 'break-word',
                                             whiteSpace: 'pre-line',
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             fontFamily: ' sans-serif',
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                                         }}
                                     >
                                         {slide.heading}
@@ -234,9 +258,15 @@ const AnimatedGrowImage = () => {
                                             textAlign: 'center',
                                             zIndex: 2,
                                             position: 'relative',
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             fontFamily:
                                                 'Quicksand, Arial, Helvetica, sans-serif',
                                             fontWeight: 300,
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                                         }}
                                     >
                                         {slide.para}

@@ -96,7 +96,15 @@ const Slider = () => {
                                 style={{
                                     fontSize: '2.5rem',
                                     marginBottom: '1.2rem',
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     fontWeight: 300,
+=======
+                                    fontWeight: 700,
+>>>>>>> Stashed changes
+=======
+                                    fontWeight: 700,
+>>>>>>> Stashed changes
                                     textAlign: 'left',
                                     color: '#0F52BA',
                                     zIndex: 2,
@@ -106,8 +114,14 @@ const Slider = () => {
                                     overflowWrap: 'break-word',
                                     wordBreak: 'break-word',
                                     whiteSpace: 'pre-line',
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     fontFamily:
                                         'Quicksand, Arial, Helvetica, sans-serif',
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                                 }}
                             >
                                 {slide.heading}
@@ -125,9 +139,15 @@ const Slider = () => {
                                     overflowWrap: 'break-word',
                                     wordBreak: 'break-word',
                                     whiteSpace: 'pre-line',
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     fontFamily:
                                         'Quicksand, Arial, Helvetica, sans-serif',
                                     fontWeight: 300,
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
                                 }}
                             >
                                 {slide.para}
