@@ -14,28 +14,28 @@ import 'swiper/css/autoplay';
 
 const slidesData = [
     {
-        heading: 'Productivity',
+        heading: 'Book your flight',
         para: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         bg: '#E3F2FD',
-        img: '/assets/images/plan.jpg',
+        img: './assets/images/book-your-flights.webp',
     },
     {
-        heading: 'Collaboration',
+        heading: 'Book you a ride',
         para: 'Work together in real-time, wherever you are.',
         bg: '#FFF3E0',
-        img: '/assets/images/plan.jpg',
+        img: '/assets/images/book-you-a-ride.jpeg',
     },
     {
-        heading: 'Security',
+        heading: 'Book you a reservation',
         para: 'Your data is protected with industry-leading security.',
         bg: '#E8F5E9',
-        img: '/assets/images/plan.jpg',
+        img: '/assets/images/book-you-a-reservation.jpg',
     },
     {
-        heading: 'Support',
+        heading: 'Order your groceries',
         para: '24/7 support to help you succeed at every step.',
         bg: '#F3E5F5',
-        img: '/assets/images/plan.jpg',
+        img: '/assets/images/order-groceries.jpeg',
     },
 ];
 
@@ -83,18 +83,8 @@ const AnimatedGrowImage = () => {
             gsap.fromTo(
                 imageRef.current,
                 {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
                     width: 145,
                     height: 145,
-=======
-                    width: 120,
-                    height: 120,
->>>>>>> Stashed changes
-=======
-                    width: 120,
-                    height: 120,
->>>>>>> Stashed changes
                     borderRadius: '50%',
                     x: 0,
                     opacity: 1,
@@ -172,6 +162,8 @@ const AnimatedGrowImage = () => {
                                     borderRadius: 0,
                                     width: '100vw',
                                     height: '100vh',
+                                    minHeight: '400px',
+                                    minWidth: '320px',
                                     display: 'flex',
                                     flexDirection: 'column',
                                     alignItems: 'center',
@@ -215,15 +207,7 @@ const AnimatedGrowImage = () => {
                                         style={{
                                             fontSize: '2.5rem',
                                             marginBottom: '1.2rem',
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
                                             fontWeight: 300,
-=======
-                                            fontWeight: 700,
->>>>>>> Stashed changes
-=======
-                                            fontWeight: 700,
->>>>>>> Stashed changes
                                             textAlign: 'center',
                                             color: '#0F52BA',
                                             zIndex: 2,
@@ -233,13 +217,7 @@ const AnimatedGrowImage = () => {
                                             overflowWrap: 'break-word',
                                             wordBreak: 'break-word',
                                             whiteSpace: 'pre-line',
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
                                             fontFamily: ' sans-serif',
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
                                         }}
                                     >
                                         {slide.heading}
@@ -258,15 +236,9 @@ const AnimatedGrowImage = () => {
                                             textAlign: 'center',
                                             zIndex: 2,
                                             position: 'relative',
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
                                             fontFamily:
                                                 'Quicksand, Arial, Helvetica, sans-serif',
                                             fontWeight: 300,
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
                                         }}
                                     >
                                         {slide.para}
